@@ -31,4 +31,4 @@ This project demonstrates the creation of a dynamic grid of colored buttons usin
 - Extend the functionality by adding more features such as animations or user interaction options.
 
 ## Credits:
-- This project was created by [Your Name] for learning purposes.
+- This project was created by Alberto Barbagallo for learning purposes.
