@@ -17,7 +17,6 @@ body {
 
 .container {
   display: grid;
-
   grid-template-columns: repeat(3, 1fr);
   height: 95vh;
   width: 95vw;
@@ -56,7 +55,6 @@ body {
 .riquadro {
   background-color: var(--main-bg-color);
   border: none;
-
   max-width: 100%;
   max-height: 100%;
 }
