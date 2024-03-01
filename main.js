@@ -17,12 +17,12 @@ function addHTML(element) {
   newHTML.innerHTML =
     '<div class="q"><button class="riquadro" onclick="addHTML(this)"></button><button class="riquadro" onclick="addHTML(this)"></button><button class="riquadro" onclick="addHTML(this)"></button><button class="riquadro" onclick="addHTML(this)"></button></div>';
 
-  let links = newHTML.getElementsByTagName("button");
+  let button = newHTML.getElementsByTagName("button");
 
-  for (let i = 0; i < links.length; i++) {
+  for (let i = 0; i < button.length; i++) {
     let color = createRandomColor();
 
-    links[i].style.setProperty("--main-bg-color", color);
+    button[i].style.setProperty("--main-bg-color", color);
   }
 
   element.replaceWith(newHTML);
