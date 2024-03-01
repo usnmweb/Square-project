@@ -1,0 +1,61 @@
+/* html {
+  --main-bg-color: brown;
+  --main-bg-color: red;
+  --main-bg-color: green;
+  --main-bg-color: blue;
+  --main-bg-color: yellow;
+  --main-bg-color: purple;
+  --main-bg-color: pink;
+} */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.container {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+  height: 95vh;
+  width: 95vw;
+}
+
+.q {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  height: 100%;
+}
+
+.f {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  width: 100%;
+  height: 100%;
+}
+
+.s {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 100%;
+  height: 100%;
+}
+
+.t {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  width: 100%;
+  height: 100%;
+}
+
+.riquadro {
+  background-color: var(--main-bg-color);
+  border: none;
+
+  max-width: 100%;
+  max-height: 100%;
+}
