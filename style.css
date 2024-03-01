@@ -1,4 +1,4 @@
-/* html {
+html {
   --main-bg-color: brown;
   --main-bg-color: red;
   --main-bg-color: green;
@@ -6,7 +6,7 @@
   --main-bg-color: yellow;
   --main-bg-color: purple;
   --main-bg-color: pink;
-} */
+}
 body {
   display: flex;
   justify-content: center;
