@@ -19,7 +19,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   height: 95vh;
-  width: 95vw;
+  width: 100vw;
 }
 
 .q {
