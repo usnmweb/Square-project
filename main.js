@@ -15,7 +15,7 @@ for (let i = 0; i < button.length; i++) {
 function addHTML(element) {
   let newHTML = document.createElement("div");
   newHTML.innerHTML =
-    '<div class="q"><button class="riquadro" onclick="addHTML(this)"></button><button class="riquadro" onclick="addHTML(this)"></button><button class="riquadro" onclick="addHTML(this)"></button><button class="riquadro" onclick="addHTML(this)"></button></div><script></script>';
+    '<div class="q"><button class="riquadro" onclick="addHTML(this)"></button><button class="riquadro" onclick="addHTML(this)"></button><button class="riquadro" onclick="addHTML(this)"></button><button class="riquadro" onclick="addHTML(this)"></button></div>';
 
   let links = newHTML.getElementsByTagName("button");
 
