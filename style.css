@@ -1,11 +1,18 @@
 body {
-  display: flex;
   justify-content: center;
   align-items: center;
   margin: 0;
+  padding: 0;
   padding-top: 1rem;
 }
 
+nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: space-between;
+  border: 2px dotted yellow;
+}
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
