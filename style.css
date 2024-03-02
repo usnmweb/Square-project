@@ -3,7 +3,7 @@ body {
   align-items: center;
   margin: 0;
   padding: 0;
-  padding-top: 1rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 nav {
@@ -11,8 +11,35 @@ nav {
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   justify-content: space-between;
-  border: 2px dotted yellow;
+  border: 2px solid yellow;
+  margin: 1rem;
 }
+
+nav a {
+  text-align: center;
+  text-decoration: none;
+}
+
+.counter {
+  padding: 0.5rem;
+  border: 1px solid black;
+}
+
+.counter h3 {
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+}
+
+.counter span {
+  display: flex;
+  justify-content: center;
+}
+
+#capture {
+  border-style: none;
+}
+
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
