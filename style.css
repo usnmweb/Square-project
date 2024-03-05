@@ -4,6 +4,10 @@ body {
   margin: 0;
   padding: 0;
   font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 16px;
+  width: 100vw;
+  overflow: hidden;
 }
 
 nav {
@@ -18,6 +22,11 @@ nav {
 nav a {
   text-align: center;
   text-decoration: none;
+  font-size: 1rem;
+}
+
+nav a:visited {
+  color: black;
 }
 
 .counter {
@@ -27,17 +36,26 @@ nav a {
 
 .counter h3 {
   text-align: center;
-  font-weight: bold;
   margin: 0;
+  font-size: 1rem;
 }
 
+#capture {
+  background-color: white;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 1rem;
+}
 .counter span {
   display: flex;
   justify-content: center;
+  font-size: 1rem;
 }
 
 #capture {
   border-style: none;
+  font-size: 1rem;
 }
 
 .container {
@@ -92,5 +110,9 @@ nav a {
     height: 80vh;
     width: 100vw;
     touch-action: manipulation;
+  }
+
+  nav a:visited {
+    color: black;
   }
 }
